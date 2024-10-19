@@ -34,7 +34,7 @@ public class BrowseHistory {
             System.out.println("No browsing history.");
         } else {
             System.out.println("Browsing history (from most recent):");
-            Stack<String> temp = (Stack<String>) history.clone(); // Cloning the stack
+            Stack<String> temp = (Stack<String>) history.clone();
             while (!temp.isEmpty()) {
                 System.out.println(temp.pop());
             }
